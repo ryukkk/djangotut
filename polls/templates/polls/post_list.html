@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<h1>My First Django BLog</h1>
-</body>
-</html>
+{% for post in posts %}
+<div>
+
+
+
+	
+	<h1>{{post.title}}</h1>
+	
+
+	<p>{{post.text}}</p>
+
+
+</div>
+{% endfor %}
