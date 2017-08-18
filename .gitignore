@@ -1,0 +1,5 @@
+*.pyc
+__pycache__
+site1
+.DS_Store
+db.sqlite3
